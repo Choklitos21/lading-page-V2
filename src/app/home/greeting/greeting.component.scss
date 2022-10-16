@@ -1,5 +1,4 @@
 .container {
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +8,8 @@
 
   &__say-hi {
     font-weight: 400;
+    position: relative;
+    left: 198px;
   }
 
   &__hi {
@@ -30,6 +31,7 @@
       color: white;
       background-color: white;
       border: none;
+      border-radius: 5px;
     }
   }
 
@@ -37,6 +39,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: 300;
+    margin-left: 20px;
   }
 
 }

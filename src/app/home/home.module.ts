@@ -4,6 +4,7 @@ import { GreetingComponent } from './greeting/greeting.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MyContactComponent } from './my-contact/my-contact.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 
@@ -12,7 +13,8 @@ import { PrincipalComponent } from './principal/principal.component';
     GreetingComponent,
     AboutMeComponent,
     MyContactComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    SkillsComponent
   ],
   imports: [
     CommonModule
