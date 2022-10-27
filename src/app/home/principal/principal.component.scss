@@ -27,6 +27,11 @@ body {
     & li {
       list-style: none;
       margin-bottom: 25px;
+      font-size: 0;
+    }
+
+    & li:first-child {
+      margin-top: 25px;
     }
   }
 
@@ -89,9 +94,18 @@ body {
 
   &__blocks {
     width: 900px;
-    height: auto;
+    height: 100px;
     margin-bottom: 500px;
   }
+}
+
+section[id] {
+  scroll-margin-top: 100px;
+  /*scroll-behavior: smooth;*/
+}
+
+section[id=greeting] {
+  scroll-margin-top: 200px;
 }
 
 
